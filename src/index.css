@@ -152,6 +152,7 @@
 /* Main Layout - 20% left, 80% right */
 .main-layout {
   display: flex;
+  flex-direction: row-reverse;
   gap: 16px;
   flex: 1;
   min-height: 0;
